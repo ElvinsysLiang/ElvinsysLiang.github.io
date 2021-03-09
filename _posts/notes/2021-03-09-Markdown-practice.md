@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Markdown练习"
+title:  "Markdown语法练习"
 tags:   [Markdown]
 date:   2021-03-09 16:22:38
 categories: [笔记]
 ---
-# markdown语法练习
+# Markdown语法练习
 ## 一、标题
 # 一级标题
 ## 二级标题
