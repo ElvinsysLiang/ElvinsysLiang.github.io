@@ -2,7 +2,7 @@
 layout: post
 title:  "title"
 tags:   [tags]
-date:   2021-03-09 18:59:31
-categories: [测试]
+date:   0000-00-00 00:00:00
+categories: [日志][想法][笔记][技术][杂谈][测试]
 ---
-看看这篇文章有没有显示。
+## 1.格式-中大
