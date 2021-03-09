@@ -3,7 +3,7 @@ layout: post
 title:  "Markdown练习"
 tags:   [Markdown]
 date:   2021-03-09 16:22:38
-categories: [日志]
+categories: [笔记]
 ---
 # markdown语法练习
 ## 一、标题
@@ -100,7 +100,7 @@ console.WriteLine("ccc");
  表头1 | 表头2 | 表头3 | 表头4
  --- | :-- | :-: | --:
  单元格1 | 单元格2 | 单元格3 | 单元格4
- 默认 | 左对齐 | 中对齐 | 右对齐 
+ 默认 | 左对齐 | 中对齐 | 右对齐
 
 ## 高级用法
 ### 支持HTML元素
