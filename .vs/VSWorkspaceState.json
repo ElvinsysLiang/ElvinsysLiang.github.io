@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_includes",
+  "SelectedNode": "\\_posts\\2021-03-09-Hello-world.md",
   "PreviewInSolutionExplorer": false
 }
