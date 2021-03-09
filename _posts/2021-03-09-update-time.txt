@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "测试更新时间"
+tags:   hello diary
+date:   2018-08-18 18:18:18
+categories: [日志]
+---
+假如文件date是2018年，文件名是2021年，效果怎么样？
