@@ -13,22 +13,28 @@ categories: [备忘]
 《数码宝贝：最后的进化》。
 7
 0306
+2+9
 《隐藏迷宫》，第9话。
 0307
-5
+3+2
 0308
 Jekyll+Github网站大建
 阿里云
 elvinsys
+0309
+2+2
+《无职转生》，第9话。
 37211985Fd
 ---
 网站分类结构
 tags
     日本  二次元 动画  游戏  
 categories
-    日志  daily
+    日志  dailylogs
     想法  ideas
     笔记  notes
     技术  tech
     杂谈  impression
     测试  test
+
+8 9 10 11
