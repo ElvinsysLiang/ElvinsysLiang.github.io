@@ -13,7 +13,7 @@ elvinsys
 ---
 网站分类结构
 tags
-    日本  二次元 动画  游戏  
+    日本  二次元 动画  游戏  日语
 categories
     日志  dailylogs
     想法  ideas
