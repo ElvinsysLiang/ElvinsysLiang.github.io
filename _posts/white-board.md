@@ -31,7 +31,8 @@ categories
 | 9  | 2  | 2  | 4 |
 | 10 | 3  | 1  | 4 |
 | 11 | 2  | 3  | 5 |
-| 12 | 0  | 3  | 3 |
+| 12 | 0  | 4  | 4 |
+| 13 | 1  | 0  | 1 |
 
 sai
 Sai1软件+笔刷+材质 https://www.lanzous.com/i5md3qj 下载后，右键以管理员方式启动安装，安装密码1989。
@@ -95,3 +96,9 @@ donet 培 训 视 频 ： https://pan.baidu.com/s/1wfhTGvmY­EVp_kB3t1osbg rfel
 商品统计
 研究酿造台造药水击败末影龙
 建设到要塞的铁路（先规划未影之眼，未影箱
+---
+picgo工具设置GitHub的参数
+https://github.com/ElvinsysLiang/picRepos
+https://cdn.jsdelivr.net/gh/用户名/图床仓库名
+693379ae40ccee8d3facee67c92a0be263c598c4
+---
