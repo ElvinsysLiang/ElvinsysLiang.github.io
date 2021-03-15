@@ -11,7 +11,7 @@ categories: [备忘]
 ---
 网站分类结构
 tags
-    日本  二次元 动画  游戏  日语  电影  
+    日本  二次元 动画  游戏  日语  电影  相册  
 categories
     日志  dailylogs
     想法  ideas
@@ -33,7 +33,8 @@ categories
 | 11 | 2  | 3  | 5 |
 | 12 | 0  | 4  | 4 |
 | 13 | 2  | 1  | 3 |
-| 14 | 0  | 3  | 3 |
+| 14 | 0  | 4  | 4 |
+| 15 | 1  | 0  | 1 |
 
 sai
 Sai1软件+笔刷+材质 https://www.lanzous.com/i5md3qj 下载后，右键以管理员方式启动安装，安装密码1989。
@@ -101,5 +102,5 @@ donet 培 训 视 频 ： https://pan.baidu.com/s/1wfhTGvmY­EVp_kB3t1osbg rfel
 picgo工具设置GitHub的参数
 https://github.com/ElvinsysLiang/picRepos
 https://cdn.jsdelivr.net/gh/用户名/图床仓库名
-693379ae40ccee8d3facee67c92a0be263c598c4
+f69e6d59fe3011f2f5ef8e126cee8efedc381204
 ---
