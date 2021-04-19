@@ -59,7 +59,7 @@ categories: [笔记]
 3. 时间盒事件（Time Boxed）  
 - 项目划分为sprint。  
 一个sprint为2周到30天，sprint长度固定进行迭代。  
-长度为30天时，sprint计划会议为8小时，长度为2周时，sprint计划会议为4小时。
+长度为30天时，sprint计划会议为8小时，长度为2周时，sprint计划会议为4小时。  
 
 - sprint计划会议（Planning）  
 团队在一个sprint开始时召开sprint计划会议（Planning）。  
