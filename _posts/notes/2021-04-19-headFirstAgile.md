@@ -59,14 +59,32 @@ categories: [笔记]
 3. 时间盒事件（Time Boxed）  
 - 项目划分为sprint。  
 一个sprint为2周到30天，sprint长度固定进行迭代。  
-长度为30天时，sprint计划会议为8小时，长度为2周时，sprint计划会议为4小时。  
-- 团队在一个sprint开始时召开sprint计划会议（Planning）。  
-会议内容为：构建sprint待办列表（Sprint Backlog）。
-- 每天召开每日Scrum站会（Daily Scrum）。  
+长度为30天时，sprint计划会议为8小时，长度为2周时，sprint计划会议为4小时。
+
+- sprint计划会议（Planning）  
+团队在一个sprint开始时召开sprint计划会议（Planning）。  
+构建sprint待办列表（Sprint Backlog）。  
+对于产品待办列表中的每一项，写出足够的信息，足以召开sprint计划会议即可。  
+在会议中，对sprint待办列表完成适量的分解，足以让每个人开始工作即可。  
+对sprint待办列表中的每一个项的“完成”进行定义，并在团队中达成共识。  
+
+- 每日Scrum站会（Daily Scrum）  
+每天召开每日Scrum站会（Daily Scrum），时间为15分钟。  
 谈论内容：做了什么，接着做什么，遇到什么障碍。  
-- sprint结束时召开sprint评审会议（Sprint Review）。  
-向产品负责人和利益相关者演示可用软件。
-- 召开回顾会议(Retrospective)，总结学到的经验教训。
+检查所开发的每一项，每一个任务。  
+发现新的任务和变更时，在每日Scrum站会上提出，再指定之后的24小时计划。  
+
+- sprint评审会议（Sprint Review）  
+sprint结束时召开sprint评审会议（Sprint Review）。  
+产品负责人查看Sprint中“完成了”的待办项。  
+团队向产品负责人和利益相关者演示可用软件。  
+团队讨论哪些工作做得好，哪些可以改进，并回答客户和利益相关者的问题。  
+产品负责人引导所有人查看产品待办列表，大家一起讨论应该把哪些项放到下一个sprint待办列表。  
+讨论市场出现的变化，这将会影响接下来的最有价值的工作。
+
+- 回顾会议(Retrospective)  
+召开回顾会议(Retrospective)。  
+总结学到的经验教训，改进特定问题。  
 
 |30 days|30 days|30 days|30 days|
 |:-:|:-:|:-:|:-:|
@@ -79,7 +97,7 @@ categories: [笔记]
 |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
 |Sprint Review|Sprint Review|Sprint Review|Sprint Review|
 |Retrospective|Retrospective|Retrospective|Retrospective|
-|New:17 features|New:14 features|New:12 features|New:9 features|
+|New:17 features|New:14 features|New:12 features|New:9 features|  
 
 4. 用于了解“Sprint构建的什么，如何构建”的三个工件
 - 产品待办列表（Product Backlog）  
@@ -143,12 +161,37 @@ Sprint计划：
 每个团队成员都能专注于sprint目标，一次只完成一个任务，知道sprint结束。  
 
 - 承诺  
-每个团队成员都承诺会尽其所能交付最有价值的产品。
+每个团队成员都承诺会尽其所能交付最有价值的产品。  
+
+6. Scrum团队在整个sprint中适应变更的手段（经验过程控制理论）
+
+- 三大支柱的一个循环，：透明、检查、适应。  
+- 透明：团队共同决定一个sprint要包含的项，对每一项的完成标准的准确定义。
+- 检查：每天站会检查每一项。  
+- 适应：如果发现变更，则马上做出适应性调整，可以PO对sprint待办列表进行增删操作）  
+- 第二天继续上面的循环，知道时间盒到期，sprint结束。  
+- 也可通过会议评审修改sprint目标、待办项、任务以及工作方式，来检查适应其他Scrum事件。  
+（包括sprint计划会议、sprint评审会议和sprint回顾会议）
+
+7. 最后责任时刻  
+- 在sprint开始时不会做出所有任务的计划。  
+- 只需要做出绝对必要的计划，就可以启动一个sprint。
+- 如果需要更多计划，即使在sprint的后期也可以再做那些计划。
+- 在最后责任时刻才做出决定。
+
+8. 敏捷宣言对于Scrum团队非常有用的3个原则  
+- 最高目标是，通过尽早和持续地交付有价值的软件来满足客户。  
+产品负责人要确保团队交付的价值。他有权拒绝验收Sprint待办列表中的“没有完成的项”。  
+在sprint评审会议中，产品负责人发挥的作用就是将价值最大化。  
+
+- 最佳的架构、需求和设计出自于自组织的团队。  
+这说明整个Scrum团队一起合作来确定项目的计划，而不是由老板指派某人完成某个任务。  
+无论是在sprint计划会议中，还是每日Scrum站会，团队成员都会不断调整他们的计划。  
 
 ---
 
 # 第四章————敏捷规划和估计：Scrum实践
-...
+
 
 ---
 
