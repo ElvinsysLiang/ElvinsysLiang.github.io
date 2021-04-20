@@ -86,18 +86,18 @@ sprint结束时召开sprint评审会议（Sprint Review）。
 召开回顾会议(Retrospective)。  
 总结学到的经验教训，改进特定问题。  
 
-|30 days|30 days|30 days|30 days|
-|:-:|:-:|:-:|:-:|
-|Backlog:21 features|Backlog:17 features|Backlog:14 features|Backlog:12 features|
-|Planning|Planning|Planning|Planning|
-|Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-|Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-|......|......|......|......|
-|Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-|Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-|Sprint Review|Sprint Review|Sprint Review|Sprint Review|
-|Retrospective|Retrospective|Retrospective|Retrospective|
-|New:17 features|New:14 features|New:12 features|New:9 features|  
+    |30 days|30 days|30 days|30 days|
+    |:-:|:-:|:-:|:-:|
+    |Backlog:21 features|Backlog:17 features|Backlog:14 features|Backlog:12 features|
+    |Planning|Planning|Planning|Planning|
+    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
+    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
+    |......|......|......|......|
+    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
+    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
+    |Sprint Review|Sprint Review|Sprint Review|Sprint Review|
+    |Retrospective|Retrospective|Retrospective|Retrospective|
+    |New:17 features|New:14 features|New:12 features|New:9 features|  
 
 
 4. 用于了解“Sprint构建的什么，如何构建”的三个工件  
@@ -210,13 +210,13 @@ Sprint计划：
 实现效果：我希望**能够在跑动过程中更换装备**，  
 特性价值：这样我就**不需要停下来查看装备库，以免被打死**。  
 
-|——————————用户故事————————————|
-|跑动过程中更换装备     2点     |
-|作为一个玩家                  |
-|我希望能够在跑动过程中更换装备  |
-|这样我就不需要停下来查看装备库，|
-|以免被打死。                  |
-|—————————————————————————————|
+——————————用户故事————————————
+跑动过程中更换装备     2点     
+作为一个玩家                  
+我希望能够在跑动过程中更换装备  
+这样我就不需要停下来查看装备库，
+以免被打死。                  
+—————————————————————————————
 
 2）故事点（Story Points）  
 用来预测每个故事的规模，强调特性的相对规模。  
@@ -347,7 +347,15 @@ XP是一种敏捷开发的方法论，专注于构建能良好沟通、有凝聚
 
 3. 更多的精益思维工具  
 1）查找浪费：找出对构建有价值商品没有帮助部分，例如编写没人读的文档。  
-2）
+2）价值流程图：以完成一个特性为最小块，从开始讨论，到最后交付，算出各步骤间的等待时间，就是浪费。  
+3）排队论：用于确保团队工作负荷过重，使他们有足够的时间来采取正确的工作方式。  
+4）拉动系统：不是由客户或产品负责人向团队推送任务，而是开发团队主动从待办列表中拉取需求。  
+5）选项思维：在团队拉去需求时，并不说明是给用户的承诺，只确保团队尽其所能完成产品工作。  
+6）**延迟成本**：风险较高的任务与风险较低的任务相比，延迟高风险工作所付出的成本更高。  
+7）  
+
+
+
 
 
 
