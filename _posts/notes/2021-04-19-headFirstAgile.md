@@ -86,19 +86,10 @@ sprint结束时召开sprint评审会议（Sprint Review）。
 召开回顾会议(Retrospective)。  
 总结学到的经验教训，改进特定问题。  
 
-    |30 days|30 days|30 days|30 days|
-    |:-:|:-:|:-:|:-:|
-    |Backlog:21 features|Backlog:17 features|Backlog:14 features|Backlog:12 features|
-    |Planning|Planning|Planning|Planning|
-    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-    |......|......|......|......|
-    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-    |Daily Scrum|Daily Scrum|Daily Scrum|Daily Scrum|
-    |Sprint Review|Sprint Review|Sprint Review|Sprint Review|
-    |Retrospective|Retrospective|Retrospective|Retrospective|
-    |New:17 features|New:14 features|New:12 features|New:9 features|  
-
+30 days->Backlog:21 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
+30 days->Backlog:17 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
+30 days->Backlog:14 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
+30 days->Backlog:12 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
 
 4. 用于了解“Sprint构建的什么，如何构建”的三个工件  
 1）产品待办列表（Product Backlog）  
@@ -210,13 +201,13 @@ Sprint计划：
 实现效果：我希望**能够在跑动过程中更换装备**，  
 特性价值：这样我就**不需要停下来查看装备库，以免被打死**。  
 
-——————————用户故事————————————  
-跑动过程中更换装备     2点     
-作为一个玩家                  
-我希望能够在跑动过程中更换装备  
-这样我就不需要停下来查看装备库，
-以免被打死。                  
-—————————————————————————————  
+例子:  
+跑动过程中更换装备  
+2点     
+作为一个玩家          
+我希望能够在跑动过程中更换装备,  
+这样我就不需要停下来查看装备库，  
+以免被打死。  
 
 2）故事点（Story Points）  
 用来预测每个故事的规模，强调特性的相对规模。  
@@ -355,15 +346,68 @@ XP是一种敏捷开发的方法论，专注于构建能良好沟通、有凝聚
 7）感知完整性/概念完整性：一个特性是否能满足客户需求/多个特性间能否充分合作形成一个统一的产品。  
 
 4. 查找7种浪费  
-1）  
-2）  
-3）  
-4）  
-5）  
-6）  
-7）  
+1）部分完成的工作（Partially Done Work）  
+在一个任务过程中要等待某个信息或批准的时候，又开始了一个新的任务，最后导致前一个任务只是完成了部分工作。  
+2）多余的流程（Extra Processes）  
+对于交付软件没有帮助的流程，反而增加团队的工作。例如，编写不会交付的文档，召开不会结束的会议等。  
+3）多余的特性（Extra Features）  
+以为尝试的新技术新特性对项目有革新的好处，结果却是不仅占用团队时间，而且对用户来说没有价值。  
+4）任务切换（Task Switching）  
+通常是由于开发人员的过度承诺引起，为的是面子而同时在3~5个任务间切换。只要存在2个优先级相当的任务间切换，就说明在浪费时间。  
+5）等待（Waiting）  
+包括等待物理硬件的配置，或是DBA把数据库准备好等等的情况，只能尽可能减少这种等待时间。  
+6）动作（Motion）  
+团队成员需要沟通时，进行的位置移动，无论是办公室内，还是市内或城际间远距离移动，所产生的时间成本浪费。  
+7）缺陷（Defects）  
+构建软件过程中所产生的缺陷发现得越晚，找出和修正缺陷所需要得时间就越多，必须尽早发现处理解决。  
 
+5. 价值流程图  
+1）作用：显示造成浪费而导致工作减慢的步骤在流程中的具体位置。  
+2）公式：（100 ✖ 工作时间 ➗ 交付时间）%  
+3）可能性：开发人员在完成开发和单元测试后就开始开发一个新特性，导致需要同时处理开发和测试管线上的4到5个不同位置的特性。由于设计的高度耦合，特性必须成批发布，导致测试和部署的整体延后。  
 
+6. 丰田制造系统（Toyota Production System，TPS）  
+1）3大浪费来源（3M）：Muda（浪费），Mura（不均衡），Muri（高负荷）。  
+2）7种制造浪费：库存、运输、过量生产、过度加工、等待、动作、缺陷。  
+3）改善质量：自动化（Jidoka）、看板（Kanban）、拉动系统（Pull System）、基本原因分析（Root Cause Analysis）、改善（Kaizen）。  
 
+7. 选项思维  
+1）并不会一成不变地按照计划实施，而是根据情况调整任务的优先度，选择适当的任务来进行。  
+2）情况随时都会发生变化，保证团队有足够的自由，尽晚决定，减少变更带来的成本。    
+
+8. 纵观全局  
+团队所有成员都应该能了解团队内的一切工作，而不是只考虑某一个角色或岗位的业务内容。  
+
+9. 拉动系统  
+1）流程中的下游步骤会从它前面的步骤拉取工作，下游步骤在没有拉取前，前面步骤则无法继续。  
+2）为了实现上面机制，进行限制在制品（Work In Progress，WIP）来减少整个交付时间。  
+
+10. 限制在制品（Work In Progress，WIP）的目的  
+1）激励团队中每个人都保持忙碌状态。  
+2）减少“部分完成的工作”和“多任务切换”带来的浪费。  
+3）避免因为接受计划以外的开发请求导致请求堆积，造成在迭代结束时得到大量半成品的结果。  
+
+11. 看板（Kanban）  
+1）基于精益思维：不指定角色，没有特定项目管理或开发的具体方法。  
+2）可视化工作流：纵观全局（例如：定义、设计、构建、集成、测试、部署）  
+3）限制WIP：保证拉动系统的正常运作。  
+4）管理流动：观察工作过程中的速度，来调整管理流程步骤。  
+5）显式化流程策略：显示工作状态，如工作步骤、进度、状态等。  
+6）实现反馈回路：让团队实现所有策略和改进，度量效果，确保有效性。  
+7）协作式改进并且实验性进化：最终使整个工作流程越来越有效。  
+
+12. 任务板和看板的区别  
+1）任务板用于项目管理：待办，进行中，完成  
+2）显示任务状态，进度跟踪，优先级，自组织  
+3）看板用于流程管理：定义、设计、构建、集成、测试、部署  
+4）显示所有特性，WIP限制，工作流，允许变更
+
+13. 创建一个工作流  
+1）定义：产品负责人从用户得到一个特性请求，并编写用户故事。  
+2）计划：团队决定下一个发布包含的特性。  
+3）构建/测试：团队构建特性并完成代码审查。  
+4）集成：团队测试集成的特性，并修正bug。  
+5）用户验收测试（UAT）：最终用户评估特性。  
+6）完成：将这个特性包含在下一个版本中发布。  
 
 ---
