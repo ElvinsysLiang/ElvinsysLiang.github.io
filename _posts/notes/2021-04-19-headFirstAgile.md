@@ -60,20 +60,17 @@ categories: [笔记]
 1）项目划分为sprint。  
 一个sprint为2周到30天，sprint长度固定进行迭代。  
 长度为30天时，sprint计划会议为8小时，长度为2周时，sprint计划会议为4小时。  
-
 2）sprint计划会议（Planning）  
 团队在一个sprint开始时召开sprint计划会议（Planning）。  
 构建sprint待办列表（Sprint Backlog）。  
 对于产品待办列表中的每一项，写出足够的信息，足以召开sprint计划会议即可。  
 在会议中，对sprint待办列表完成适量的分解，足以让每个人开始工作即可。  
 对sprint待办列表中的每一个项的“完成”进行定义，并在团队中达成共识。  
-
 3）每日Scrum站会（Daily Scrum）  
 每天召开每日Scrum站会（Daily Scrum），时间为15分钟。  
 谈论内容：做了什么，接着做什么，遇到什么障碍。  
 检查所开发的每一项，每一个任务。  
 发现新的任务和变更时，在每日Scrum站会上提出，再指定之后的24小时计划。  
-
 4）sprint评审会议（Sprint Review）  
 sprint结束时召开sprint评审会议（Sprint Review）。  
 产品负责人查看Sprint中“完成了”的待办项。  
@@ -81,11 +78,9 @@ sprint结束时召开sprint评审会议（Sprint Review）。
 团队讨论哪些工作做得好，哪些可以改进，并回答客户和利益相关者的问题。  
 产品负责人引导所有人查看产品待办列表，大家一起讨论应该把哪些项放到下一个sprint待办列表。  
 讨论市场出现的变化，这将会影响接下来的最有价值的工作。  
-
 5）回顾会议(Retrospective)  
 召开回顾会议(Retrospective)。  
 总结学到的经验教训，改进特定问题。  
-
 30 days->Backlog:21 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
 30 days->Backlog:17 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
 30 days->Backlog:14 features->Planning->Daily Scrum->...->Daily Scrum->Sprint Review->Retrospective  
@@ -95,7 +90,6 @@ sprint结束时召开sprint评审会议（Sprint Review）。
 1）产品待办列表（Product Backlog）  
 
 例子：狂野奶牛5的产品待办列表  
-
 第一项：设计和测试“羊圈秘密行动”关卡。  
 估计工作量：27人日。  
 价值：在CGW4最受欢迎的关卡的基础上构建，提高玩家满意度。  
